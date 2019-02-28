@@ -1,0 +1,28 @@
+{
+    "name": "flux-snippets",
+    "displayName": "flux-snippets",
+    "description": "Snippets for Flux",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.31.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "plaintext",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "plaintext",
+                "path": "./snippets/content.json"
+            },
+            {
+                "language": "plaintext",
+                "path": "./snippets/field.json"
+            }
+        ]
+    }
+}
