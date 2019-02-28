@@ -1,0 +1,45 @@
+{
+  "flux:form": {
+    "prefix": "flux:form",
+    "body": [
+      "<flux:form id=\"$1\" label=\"$2\" description=\"$3\">",
+      "\t$4",
+      "</flux:form>"
+    ],
+    "description": "FormViewHelper"
+  },
+  "flux:grid": {
+    "prefix": "flux:grid",
+    "body": [
+      "<flux:grid>",
+      "\t$1",
+      "</flux:grid>"
+    ],
+    "description": "GridViewHelper"
+  },
+  "flux:outlet": {
+    "prefix": "flux:outlet",
+    "body": [
+      "<flux:outlet${2: enabled=\"${1:1}\"}>",
+      "\t$3",
+      "</flux:outlet>"
+    ],
+    "description": "OutletViewHelper"
+  },
+  "flux:variable": {
+    "prefix": "flux:variable",
+    "body": [
+      "<flux:variable name=\"$1\">",
+      "\t$2",
+      "</flux:variable>"
+    ],
+    "description": "VariableViewHelper"
+  },
+  "flux:variable inline": {
+    "prefix": "flux:variable-inline",
+    "body": [
+      "{flux:variable(name: '$1')}",
+    ],
+    "description": "VariableViewHelper"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "flux:field.inline.fal": {
+    "prefix": "flux:field.inline.fal",
+    "body": [
+      "<flux:field.inline.fal name=\"$1\" label=\"$2\"${3: required=\"1\"}${4: multiple=\"0\"}${6: minItems=\"$5\"}${8: maxItems=\"$7\"}${9: collapseAll=\"0\"}${10: expandSingle=\"0\"} allowedExtensions=\"${11:jpg,jpeg,png,svg}\" />"
+    ],
+    "description": "Field/Inline/FalViewHelper"
+  },
+  "flux:field.tree.category": {
+    "prefix": "flux:field.tree.category",
+    "body": [
+      "<flux:field.tree.category name=\"$1\" label=\"$2\"${3: required=\"1\"}${4: multiple=\"0\"}${6: minItems=\"$5\"}${8: maxItems=\"$7\"}${9: showThumbs=\"1\"}${10: expandAll=\"1\"} />"
+    ],
+    "description": "Field/Tree/CategoryViewHelper"
+  },
+  "flux:field.checkbox": {
+    "prefix": "flux:field.checkbox",
+    "body": [
+      "<flux:field.checkbox name=\"$1\" label=\"$2\"${4: default=\"$3\"}${5: required=\"1\"}${6: requestUpdate=\"1\"}${7: clear=\"1\"} />"
+    ],
+    "description": "Field/CheckboxViewHelper"
+  },
+  "flux:field.controllerActions": {
+    "prefix": "flux:field.controllerActions",
+    "body": [
+      "<flux:field.controllerActions name=\"$1\" label=\"$2\" default=\"NULL\" required=\"1\" exclude=\"1\" transform=\"NULL\" enabled=\"1\" requestUpdate=\"1\" displayCond=\"NULL\" inherit=\"1\" inheritEmpty=\"1\" clear=\"1\" variables=\"{foo: 'bar'}\" extensionName=\"NULL\" validate=\"'trim'\" size=\"123\" multiple=\"1\" minItems=\"123\" maxItems=\"123\" itemListStyle=\"NULL\" selectedListStyle=\"NULL\" renderMode=\"NULL\" items=\"[mixed]\" emptyOption=\"[mixed]\" translateCsvItems=\"1\" renderType=\"'selectSingle'\" showIconTable=\"1\" controllerExtensionName=\"NULL\" pluginName=\"NULL\" controllerName=\"NULL\" actions=\"{foo: 'bar'}\" excludeActions=\"{foo: 'bar'}\" prefixOnRequiredArguments=\"'*'\" disableLocalLanguageLabels=\"1\" localLanguageFileRelativePath=\"'/Resources/Private/Language/locallang_db.xml'\" subActions=\"{foo: 'bar'}\" separator=\"NULL\" />"
+    ],
+    "description": "Field/ControllerActionsViewHelper *"
+  },
+  "flux:field.custom": {
+    "prefix": "flux:field.custom",
+    "body": [
+      "<flux:field.custom name=\"$1\" label=\"$2\"${4: default=\"$3\"}${5: required=\"1\"}${6: requestUpdate=\"1\"}${7: clear=\"1\"}${9: userFunc=\"${8:FluidTYPO3\\Flux\\UserFunction\\HtmlOutput->renderField}\"} />"
+    ],
+    "description": "Field/CustomViewHelper"
+  },
+  "flux:field.file": {
+    "prefix": "flux:field.file",
+    "body": [
+      "<flux:field.file name=\"$1\" label=\"$2\"${4: required=\"1\"}${5: multiple=\"1\"}${7: minItems=\"$6\"}${9: maxItems=\"$8\"}${11: allowed=\"${10:jpg,png,gif,svg}\"}${12: showThumbnails=\"1\"}${13: useFalRelation=\"1\"} />"
+    ],
+    "description": "Field/FileViewHelper"
+  },
+  "flux:field.inline": {
+    "prefix": "flux:field.inline",
+    "body": [
+      "<flux:field.inline name=\"$1\" label=\"$2\" default=\"NULL\" required=\"1\" exclude=\"1\" transform=\"NULL\" enabled=\"1\" requestUpdate=\"1\" displayCond=\"NULL\" inherit=\"1\" inheritEmpty=\"1\" clear=\"1\" variables=\"{foo: 'bar'}\" extensionName=\"NULL\" validate=\"'trim'\" size=\"123\" multiple=\"1\" minItems=\"123\" maxItems=\"123\" itemListStyle=\"NULL\" selectedListStyle=\"NULL\" renderMode=\"NULL\" items=\"[mixed]\" emptyOption=\"[mixed]\" translateCsvItems=\"1\" table=\"NULL\" condition=\"NULL\" mm=\"NULL\" foreignField=\"''\" foreignLabel=\"''\" foreignSelector=\"NULL\" foreignSortby=\"''\" foreignDefaultSortby=\"''\" foreignTableField=\"''\" foreignUnique=\"NULL\" symmetricField=\"''\" symmetricLabel=\"''\" symmetricSortby=\"''\" localizationMode=\"''\" localizeChildrenAtParentLocalization=\"1\" disableMovingChildrenWithParent=\"1\" showThumbs=\"1\" matchFields=\"{foo: 'bar'}\" oppositeField=\"''\" collapseAll=\"1\" expandSingle=\"1\" newRecordLinkAddTitle=\"1\" newRecordLinkPosition=\"'top'\" useCombination=\"1\" useSortable=\"1\" showPossibleLocalizationRecords=\"1\" showRemovedLocalizationRecords=\"1\" showAllLocalizationLink=\"1\" showSynchronizationLink=\"1\" enabledControls=\"{foo: 'bar'}\" headerThumbnail=\"{foo: 'bar'}\" foreignMatchFields=\"{foo: 'bar'}\" foreignTypes=\"{foo: 'bar'}\" levelLinksPosition=\"NULL\" />"
+    ],
+    "description": "Field/InlineViewHelper *"
+  },
+  "flux:field.input": {
+    "prefix": "flux:field.input",
+    "body": [
+      "<flux:field.input name=\"$1\" label=\"$2\"${4: default=\"$3\"}${5: required=\"1\"}${7: eval=\"${6:'trim'}\"}${9: maxCharacters=\"$8\"}${11: placeholder=\"$10\"} />"
+    ],
+    "description": "Field/InputViewHelper"
+  }
+}
