@@ -12,16 +12,36 @@
     "contributes": {
         "snippets": [
             {
-                "language": "plaintext",
-                "path": "./snippets/snippets.json"
+                "language": "html",
+                "path": "./snippets/flux.json"
             },
             {
-                "language": "plaintext",
+                "language": "html",
                 "path": "./snippets/content.json"
             },
             {
-                "language": "plaintext",
+                "language": "html",
                 "path": "./snippets/field.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/form.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/grid.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/outlet.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/pipe.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/wizard.json"
             }
         ]
     }

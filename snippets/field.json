@@ -11,7 +11,7 @@
     "body": [
       "<flux:field.tree.category name=\"$1\" label=\"$2\"${3: required=\"1\"}${4: multiple=\"0\"}${6: minItems=\"$5\"}${8: maxItems=\"$7\"}${9: showThumbs=\"1\"}${10: expandAll=\"1\"} />"
     ],
-    "description": "Field/Tree/CategoryViewHelper"
+    "description": "Field/Tree/CategoryViewHelper *"
   },
   "flux:field.checkbox": {
     "prefix": "flux:field.checkbox",
@@ -48,11 +48,67 @@
     ],
     "description": "Field/InlineViewHelper *"
   },
-  "flux:field.input": {
+  "fluxs:field.input": {
     "prefix": "flux:field.input",
     "body": [
       "<flux:field.input name=\"$1\" label=\"$2\"${4: default=\"$3\"}${5: required=\"1\"}${7: eval=\"${6:'trim'}\"}${9: maxCharacters=\"$8\"}${11: placeholder=\"$10\"} />"
     ],
     "description": "Field/InputViewHelper"
+  },
+  "flux:field.multiRelation": {
+    "prefix": "flux:field.multiRelation",
+    "body": [
+      "<flux:field.multiRelation name=\"$1\" label=\"$2\" default=\"NULL\" required=\"1\" exclude=\"1\" transform=\"NULL\" enabled=\"1\" requestUpdate=\"1\" displayCond=\"NULL\" inherit=\"1\" inheritEmpty=\"1\" clear=\"1\" variables=\"{foo: 'bar'}\" extensionName=\"NULL\" validate=\"'trim'\" size=\"123\" multiple=\"1\" minItems=\"123\" maxItems=\"123\" itemListStyle=\"NULL\" selectedListStyle=\"NULL\" renderMode=\"NULL\" items=\"[mixed]\" emptyOption=\"[mixed]\" translateCsvItems=\"1\" table=\"NULL\" condition=\"NULL\" mm=\"NULL\" foreignField=\"''\" foreignLabel=\"''\" foreignSelector=\"NULL\" foreignSortby=\"''\" foreignDefaultSortby=\"''\" foreignTableField=\"''\" foreignUnique=\"NULL\" symmetricField=\"''\" symmetricLabel=\"''\" symmetricSortby=\"''\" localizationMode=\"''\" localizeChildrenAtParentLocalization=\"1\" disableMovingChildrenWithParent=\"1\" showThumbs=\"1\" matchFields=\"{foo: 'bar'}\" oppositeField=\"''\" />"
+    ],
+    "description": "Field/MultiRelationViewHelper *"
+  },
+  "flux:field.none": {
+    "prefix": "flux:field.none",
+    "body": [
+      "<flux:field.none name=\"$1\" label=\"$2\" default=\"$3\" />"
+    ],
+    "description": "Field/NoneViewHelper"
+  },
+  "flux:field.radio": {
+    "prefix": "flux:field.radio",
+    "body": [
+      "<flux:field.radio name=\"$1\" label=\"$2\"${4: default=\"$3\"}${5: required=\"1\"}${6: requestUpdate=\"1\"} items=\"{0:{0:'One',1:'0'},1:{0:'Two',1:'1'}}\" />"
+    ],
+    "description": "Field/RadioViewHelper"
+  },
+  "flux:field.relation": {
+    "prefix": "flux:field.relation",
+    "body": [
+      "<flux:field.relation name=\"$1\" label=\"$2\" default=\"NULL\" required=\"1\" exclude=\"1\" transform=\"NULL\" enabled=\"1\" requestUpdate=\"1\" displayCond=\"NULL\" inherit=\"1\" inheritEmpty=\"1\" clear=\"1\" variables=\"{foo: 'bar'}\" extensionName=\"NULL\" validate=\"'trim'\" size=\"123\" multiple=\"1\" minItems=\"123\" maxItems=\"123\" itemListStyle=\"NULL\" selectedListStyle=\"NULL\" renderMode=\"NULL\" items=\"[mixed]\" emptyOption=\"[mixed]\" translateCsvItems=\"1\" table=\"NULL\" condition=\"NULL\" mm=\"NULL\" foreignField=\"''\" foreignLabel=\"''\" foreignSelector=\"NULL\" foreignSortby=\"''\" foreignDefaultSortby=\"''\" foreignTableField=\"''\" foreignUnique=\"NULL\" symmetricField=\"''\" symmetricLabel=\"''\" symmetricSortby=\"''\" localizationMode=\"''\" localizeChildrenAtParentLocalization=\"1\" disableMovingChildrenWithParent=\"1\" showThumbs=\"1\" matchFields=\"{foo: 'bar'}\" oppositeField=\"''\" />"
+    ],
+    "description": "Field/RelationViewHelper *"
+  },
+  "flux:field.select": {
+    "prefix": "flux:field.select",
+    "body": [
+      "<flux:field.select name=\"$1\" label=\"$2\"${4: default=\"$3\"}${5: required=\"1\"}${6: requestUpdate=\"1\"}${12: renderType=\"${7:selectSingle}${8:selectSingleBox}${9:selectCheckBox}${10:selectMultipleSideBySide}${11:selectTree}\"}${14: size=\"$13\"}${16: maxItems=\"$15\"} items=\"{0:{0:'One',1:'0'},1:{0:'Two',1:'1'}}\" />"
+    ],
+    "description": "Field/SelectViewHelper"
+  },
+  "flux:field.text": {
+    "prefix": "flux:field.text",
+    "body": [
+      "<flux:field.text name=\"$1\" label=\"$2\"${4: required=\"1\"}${6: validate=\"'${5:trim}'\"}${7: enableRichText=\"1\"} />"
+    ],
+    "description": "Field/TextViewHelper"
+  },
+  "flux:field.tree": {
+    "prefix": "flux:field.tree",
+    "body": [
+      "<flux:field.tree name=\"$1\" label=\"$2\"${4: required=\"1\"} />"
+    ],
+    "description": "Field/TreeViewHelper *"
+  },
+  "flux:field.userFunc": {
+    "prefix": "flux:field.userFunc",
+    "body": [
+      "<flux:field.userFunc name=\"$1\" label=\"$2\"${5: extensionName=\"$4\"} userFunc=\"$6\" />"
+    ],
+    "description": "Field/UserFuncViewHelper *"
   }
 }

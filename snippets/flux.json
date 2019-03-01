@@ -34,12 +34,5 @@
       "</flux:variable>"
     ],
     "description": "VariableViewHelper"
-  },
-  "flux:variable inline": {
-    "prefix": "flux:variable-inline",
-    "body": [
-      "{flux:variable(name: '$1')}",
-    ],
-    "description": "VariableViewHelper"
   }
 }
