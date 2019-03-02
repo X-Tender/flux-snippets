@@ -2,56 +2,56 @@
   "flux:wizard.add": {
     "prefix": "flux:wizard.add",
     "body": [
-      "<flux:wizard.add label=\"$1\"${2: hideParent=\"1\"}${4: extensionName=\"$3\"} table=\"$5\" pid=\"$6\" setValue=\"'prepend'\" />",
+      "<flux:wizard.add label=\"$1\"${2: hideParent=\"1\"}${4: extensionName=\"$3\"} table=\"$5\" pid=\"$6\" setValue=\"'prepend'\" />"
     ],
     "description": "Wizard/AddViewHelper"
   },
   "flux:wizard.colorPicker": {
     "prefix": "flux:wizard.colorPicker",
     "body": [
-      "<flux:wizard.colorPicker label=\"$1\" dim=\"'${2:20x20}'\" width=\"$3\" height=\"$4\" exampleImg=\"'${5:EXT:flux/Resources/Public/Icons/ColorWheel.png}'\" />",
+      "<flux:wizard.colorPicker label=\"$1\" dim=\"'${2:20x20}'\" width=\"$3\" height=\"$4\" exampleImg=\"'${5:EXT:flux/Resources/Public/Icons/ColorWheel.png}'\" />"
     ],
     "description": "Wizard/ColorPickerViewHelper"
   },
   "flux:wizard.edit": {
     "prefix": "flux:wizard.edit",
     "body": [
-      "<flux:wizard.edit label=\"$1\"${2: hideParent=\"1\"}${4: extensionName=\"$3\"} width=\"$5\" height=\"$6\"${7: openOnlyIfSelected=\"1\"} />",
+      "<flux:wizard.edit label=\"$1\"${2: hideParent=\"1\"}${4: extensionName=\"$3\"} width=\"$5\" height=\"$6\"${7: openOnlyIfSelected=\"1\"} />"
     ],
     "description": "Wizard/EditViewHelper"
   },
   "flux:wizard.link": {
     "prefix": "flux:wizard.link",
     "body": [
-      "<flux:wizard.link label=\"$1\"${2: hideParent=\"1\"}${4: extensionName=\"$3\"} activeTab=\"'${5:file}'\" width=\"$6\" height=\"$7\"${9: allowedExtensions=\"$8\"} />",
+      "<flux:wizard.link label=\"$1\"${2: hideParent=\"1\"}${4: extensionName=\"$3\"} activeTab=\"'${5:file}'\" width=\"$6\" height=\"$7\"${9: allowedExtensions=\"$8\"} />"
     ],
     "description": "Wizard/LinkViewHelper"
   },
   "flux:wizard.list": {
     "prefix": "flux:wizard.list",
     "body": [
-      "<flux:wizard.list label=\"$1\"${2: hideParent=\"1\"}${4: extensionName=\"$3\"} table=\"$5\" pid=\"$6\" width=\"$7\" height=\"$8\" />",
+      "<flux:wizard.list label=\"$1\"${2: hideParent=\"1\"}${4: extensionName=\"$3\"} table=\"$5\" pid=\"$6\" width=\"$7\" height=\"$8\" />"
     ],
     "description": "Wizard/ListViewHelper"
   },
   "flux:wizard.select": {
     "prefix": "flux:wizard.select",
     "body": [
-      "<flux:wizard.select label=\"$1\"${2: hideParent=\"1\"}${4: extensionName=\"$3\"} mode=\"'${5:substitution}'\" items=\"$6\" />",
+      "<flux:wizard.select label=\"$1\"${2: hideParent=\"1\"}${4: extensionName=\"$3\"} mode=\"'${5:substitution}'\" items=\"$6\" />"
     ],
     "description": "Wizard/SelectViewHelper"
   },
   "flux:wizard.slider": {
     "prefix": "flux:wizard.slider",
     "body": [
-      "<flux:wizard.slider label=\"$1\"${2: hideParent=\"1\"}${4: extensionName=\"$3\"} mode=\"'${5:substitution}'\" steps=\"$6\" width=\"$7\" />",
+      "<flux:wizard.slider label=\"$1\"${2: hideParent=\"1\"}${4: extensionName=\"$3\"} mode=\"'${5:substitution}'\" steps=\"$6\" width=\"$7\" />"
     ],
     "description": "Wizard/SliderViewHelper"
   },
   "flux:wizard.suggest": {
     "prefix": "flux:wizard.suggest",
     "body": [
-      "<flux:wizard.suggest label=\"$1\"${2: hideParent=\"1\"}${4: extensionName=\"$3\"} table=\"$5\" pidList=\"'$6'\" pidDepth=\"$7\" minimumCharacters=\"$8\" maxPathTitleLength=\"$9\"${10: searchWholePhrase=\"1\"} searchCondition=\"'$11'\"${13: cssClass=\"'$12'\"}${15: receiverClass=\"'$14'\"}${17: renderFunc=\"'$16'\"} />",
+      "<flux:wizard.suggest label=\"$1\"${2: hideParent=\"1\"}${4: extensionName=\"$3\"} table=\"$5\" pidList=\"'$6'\" pidDepth=\"$7\" minimumCharacters=\"$8\" maxPathTitleLength=\"$9\"${10: searchWholePhrase=\"1\"} searchCondition=\"'$11'\"${13: cssClass=\"'$12'\"}${15: receiverClass=\"'$14'\"}${17: renderFunc=\"'$16'\"} />"
     ],
     "description": "Wizard/SuggestViewHelper"
   }

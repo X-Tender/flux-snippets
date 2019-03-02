@@ -20,7 +20,7 @@
   "flux:outlet.validate": {
     "prefix": "flux:outlet.validate",
     "body": [
-      "<flux:outlet.validate type=\"$1\"${3: options=\"$2\"} />",
+      "<flux:outlet.validate type=\"$1\"${3: options=\"$2\"} />"
     ],
     "description": "Grid/ValidateViewHelper"
   }

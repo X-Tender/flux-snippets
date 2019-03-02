@@ -2,28 +2,28 @@
   "flux:pipe.controller": {
     "prefix": "flux:pipe.controller",
     "body": [
-      "<flux:pipe.controller direction=\"$1\" action=\"$2\" controller=\"$3\" extensionName=\"$4\" />",
+      "<flux:pipe.controller direction=\"$1\" action=\"$2\" controller=\"$3\" extensionName=\"$4\" />"
     ],
     "description": "Pipe/ControllerViewHelper"
   },
   "flux:pipe.email": {
     "prefix": "flux:pipe.email",
     "body": [
-      "<flux:pipe.email direction=\"$1\" body=\"$2\" bodySection=\"$3\" subject=\"$4\" recipient=\"$5\" sender=\"$6\" />",
+      "<flux:pipe.email direction=\"$1\" body=\"$2\" bodySection=\"$3\" subject=\"$4\" recipient=\"$5\" sender=\"$6\" />"
     ],
     "description": "Pipe/EmailViewHelper"
   },
   "flux:pipe.flashMessage": {
     "prefix": "flux:pipe.flashMessage",
     "body": [
-      "<flux:pipe.flashMessage direction=\"$1\" message=\"$2\" title=\"'$3'\" severity=\"$4\"${5: storeInSession=\"1\"} />",
+      "<flux:pipe.flashMessage direction=\"$1\" message=\"$2\" title=\"'$3'\" severity=\"$4\"${5: storeInSession=\"1\"} />"
     ],
     "description": "Pipe/FlashMessageViewHelper"
   },
   "flux:pipe.typeConverter": {
     "prefix": "flux:pipe.typeConverter",
     "body": [
-      "<flux:pipe.typeConverter direction=\"$1\" targetType=\"$2\" typeConverter=\"$3\" />",
+      "<flux:pipe.typeConverter direction=\"$1\" targetType=\"$2\" typeConverter=\"$3\" />"
     ],
     "description": "Pipe/TypeConverterViewHelper"
   }

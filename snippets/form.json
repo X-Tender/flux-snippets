@@ -2,28 +2,28 @@
   "flux:form.option.group": {
     "prefix": "flux:form.option.group",
     "body": [
-      "<flux:form.option.group value=\"$1\" />",
+      "<flux:form.option.group value=\"$1\" />"
     ],
     "description": "Form/Option/GroupViewHelper"
   },
   "flux:form.option.icon": {
     "prefix": "flux:form.option.icon",
     "body": [
-      "<flux:form.option.icon value=\"/typo3conf/ext/$1/Resources/Public/Icons/${2:icon.svg}\" />",
+      "<flux:form.option.icon value=\"/typo3conf/ext/$1/Resources/Public/Icons/${2:icon.svg}\" />"
     ],
     "description": "Form/Option/IconViewHelper"
   },
   "flux:form.option.sorting": {
     "prefix": "flux:form.option.sorting",
     "body": [
-      "<flux:form.option.sorting value=\"$1\" />",
+      "<flux:form.option.sorting value=\"$1\" />"
     ],
     "description": "Form/Option/SortingViewHelper"
   },
   "flux:form.option.static": {
     "prefix": "flux:form.option.static",
     "body": [
-      "<flux:form.option.static value=\"${1:1}\" />",
+      "<flux:form.option.static value=\"${1:1}\" />"
     ],
     "description": "Form/Option/StaticViewHelper"
   },
@@ -39,14 +39,14 @@
   "flux:form.content": {
     "prefix": "flux:form.content",
     "body": [
-      "<flux:form.content name=\"$1\" label=\"$2\" />",
+      "<flux:form.content name=\"$1\" label=\"$2\" />"
     ],
     "description": "Form/ContentViewHelper"
   },
   "flux:form.data": {
     "prefix": "flux:form.data",
     "body": [
-      "<flux:form.data table=\"$1\" field=\"$2\" uid=\"$3\" record=\"${4:{foo: 'bar'}}\" as=\"$5\" />",
+      "<flux:form.data table=\"$1\" field=\"$2\" uid=\"$3\" record=\"${4:{foo: 'bar'}}\" as=\"$5\" />"
     ],
     "description": "Form/DataViewHelper"
   },
@@ -62,14 +62,14 @@
   "flux:form.option": {
     "prefix": "flux:form.option",
     "body": [
-      "<flux:form.option name=\"$1\" value=\"$2\" />",
+      "<flux:form.option name=\"$1\" value=\"$2\" />"
     ],
     "description": "Form/OptionViewHelper"
   },
   "flux:form.render": {
     "prefix": "flux:form.render",
     "body": [
-      "<flux:form.render form=\"$1\" />",
+      "<flux:form.render form=\"$1\" />"
     ],
     "description": "Form/RenderViewHelper"
   },
@@ -94,7 +94,7 @@
   "flux:form.variable": {
     "prefix": "flux:form.variable",
     "body": [
-      "<flux:form.variable name=\"$1\" value=\"$2\" />",
+      "<flux:form.variable name=\"$1\" value=\"$2\" />"
     ],
     "description": "Form/VariableViewHelper"
   }
