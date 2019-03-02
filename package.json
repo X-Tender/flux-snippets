@@ -4,7 +4,7 @@
     "description": "Snippets for TYPO§ Flux ViewHelpers",
     "icon": "images/icon.svg",
     "version": "0.0.2",
-    "publisher": "Paul Kamma",
+    "publisher": "paulkamma",
 	"license": "GNU",
     "engines": {
         "vscode": "^1.31.0"
