@@ -1,14 +1,31 @@
 {
     "name": "flux-snippets",
     "displayName": "flux-snippets",
-    "description": "Snippets for Flux",
-    "version": "0.0.1",
+    "description": "Snippets for TYPO§ Flux ViewHelpers",
+    "icon": "images/icon.svg",
+    "version": "0.0.2",
+    "publisher": "Paul Kamma",
+	"license": "GNU",
     "engines": {
         "vscode": "^1.31.0"
     },
     "categories": [
         "Snippets"
     ],
+    "galleryBanner":{
+        "color": "#f49700",
+		"theme": "light"
+    },
+    "preview":false,
+    "bugs": {
+        "url": "https://github.com/X-Tender/flux-snippets/issues",
+        "email": "paul.kamma@gmail.com"
+    },
+    "homepage": "https://github.com/X-Tender/flux-snippets",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/X-Tender/flux-snippets.git"
+    },
     "contributes": {
         "snippets": [
             {
