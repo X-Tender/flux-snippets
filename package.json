@@ -2,7 +2,7 @@
     "name": "flux-snippets",
     "displayName": "flux-snippets",
     "description": "Snippets for TYPO§ Flux ViewHelpers",
-    "icon": "images/icon.svg",
+    "icon": "images/icon.png",
     "version": "0.0.2",
     "publisher": "paulkamma",
 	"license": "GNU",
