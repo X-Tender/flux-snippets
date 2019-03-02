@@ -3,20 +3,26 @@
     "displayName": "flux-snippets",
     "description": "Snippets for TYPO3 Flux ViewHelpers",
     "icon": "images/icon.png",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "publisher": "paulkamma",
-	"license": "GNU",
+    "license": "GNU",
     "engines": {
         "vscode": "^1.31.0"
     },
     "categories": [
         "Snippets"
     ],
-    "galleryBanner":{
+    "keywords":[
+        "snippets",
+        "typo3",
+        "flux",
+        "viewhelper"
+    ],
+    "galleryBanner": {
         "color": "#f49700",
-		"theme": "light"
+        "theme": "light"
     },
-    "preview":false,
+    "preview": false,
     "bugs": {
         "url": "https://github.com/X-Tender/flux-snippets/issues",
         "email": "paul.kamma@gmail.com"
