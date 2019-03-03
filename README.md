@@ -213,7 +213,7 @@ Not all arguments are included in a snippet, only the one which are (in my oppin
       <td>
 
 ```html
-<flux:field.select name="$1" label="$2"${4: default="$3"}${5: required="1"}${6: requestUpdate="1"}${12: renderType="${7:selectSingle}${8:selectSingleBox}${9:selectCheckBox}${10:selectMultipleSideBySide}${11:selectTree}"}${14: size="$13"}${16: maxItems="$15"} items="{0:{0:'One',1:'0'},1:{0:'Two',1:'1'}}" />
+<flux:field.select name="$1" label="$2"${4: default="$3"}${5: required="1"}${6: requestUpdate="1"}${8: renderType="${7|selectSingle,selectSingleBox,selectCheckBox,selectMultipleSideBySide,selectTree|}${10: size="$9"}${12: maxItems="$11"} items="{0:{0:'One',1:'0'},1:{0:'Two',1:'1'}}" />
 ```
   </td>
   </tr>
@@ -604,22 +604,22 @@ Not all arguments are included in a snippet, only the one which are (in my oppin
 
   <f:section name="Configuration">
     <flux:form
-      id="$1"
-      label="$2"
-      description="$3"
+      id="${1:${TM_FILENAME/(^.)/${1:/downcase}/}}"
+      label="${2:$TM_FILENAME}"
+      description="$${3:$TM_FILENAME}"
     >
-      <flux:form.option name="group" value="$4" />
-      <flux:form.option name="icon" value="EXT:$5/Resources/Public/Icons/Content/icon.svg" />
+      <flux:form.option name="group" value="${4:Flux}" />
+      <flux:form.option name="icon" value="EXT:$5/Resources/Public/Icons/Content/Standard.svg" />
       $6
     </flux:form>
   </f:section>
 
   <f:section name="Preview">
-    $7
+    <h3>${2:$TM_FILENAME}</h3>
   </f:section>
 
   <f:section name="Main">
-    $8
+    $7
   </f:section>
 </div>
 ```
