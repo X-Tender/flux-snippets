@@ -1,5 +1,12 @@
 # VS Code typo3 Flux Snippets
 
+## Version 0.2.0
+* Fix typo in README.md (Recomendation -> Recommendation)
+* Changed default icon name in CE template (icon.svg -> Standard.svg)
+* Optimized Tabbing
+* Added Choice markup for flux:field.selects renderType
+* Made CE template more inteligent
+
 ## Version 0.1.0
 * Added basic template snippet for a content element (`flux-ce-template`)
 * Updated snippet description
