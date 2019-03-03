@@ -3,7 +3,7 @@
     "prefix": "flux:grid.column",
     "body": [
       "<flux:grid.column name=\"$1\" label=\"$2\" colPos=\"$3\"${5: colspan=\"$4\"}${7: rowspan=\"$6\"}${9: style=\"$8\"}>",
-      "\t$10",
+      "\t$0",
       "</flux:grid.column>"
     ],
     "description": "Grid/ColumnViewHelper"
@@ -12,7 +12,7 @@
     "prefix": "flux:grid.row",
     "body": [
       "<flux:grid.row name=\"$1\" label=\"$2\">",
-      "\t$3",
+      "\t$0",
       "</flux:grid.row>"
     ],
     "description": "Grid/RowViewHelper"

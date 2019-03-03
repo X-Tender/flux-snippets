@@ -3,7 +3,7 @@
     "prefix": "flux:form",
     "body": [
       "<flux:form id=\"$1\" label=\"$2\" description=\"$3\">",
-      "\t$4",
+      "\t$0",
       "</flux:form>"
     ],
     "description": "FormViewHelper"
@@ -12,7 +12,7 @@
     "prefix": "flux:grid",
     "body": [
       "<flux:grid>",
-      "\t$1",
+      "\t$0",
       "</flux:grid>"
     ],
     "description": "GridViewHelper"
@@ -21,7 +21,7 @@
     "prefix": "flux:outlet",
     "body": [
       "<flux:outlet${2: enabled=\"${1:1}\"}>",
-      "\t$3",
+      "\t$0",
       "</flux:outlet>"
     ],
     "description": "OutletViewHelper"
@@ -30,7 +30,7 @@
     "prefix": "flux:variable",
     "body": [
       "<flux:variable name=\"$1\">",
-      "\t$2",
+      "\t$0",
       "</flux:variable>"
     ],
     "description": "VariableViewHelper"

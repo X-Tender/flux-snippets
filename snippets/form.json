@@ -77,7 +77,7 @@
     "prefix": "flux:form.section",
     "body": [
       "<flux:form.section name=\"$1\" label=\"$2\" >",
-      "\t$3",
+      "\t$0",
       "</flux:form.section>"
     ],
     "description": "Form/SectionViewHelper"
@@ -86,7 +86,7 @@
     "prefix": "flux:form.sheet",
     "body": [
       "<flux:form.sheet name=\"$1\" label=\"$2\"${4: description=\"$3\"}${6: shortDescription=\"$5\"} >",
-      "\t$7",
+      "\t$0",
       "</flux:form.sheet>"
     ],
     "description": "Form/SheetViewHelper"

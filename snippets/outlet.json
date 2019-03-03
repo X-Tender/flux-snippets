@@ -3,7 +3,7 @@
     "prefix": "flux:outlet.argument",
     "body": [
       "<flux:outlet.argument name=\"$1\" type=\"$2\">",
-      "\t$3",
+      "\t$0",
       "</flux:outlet.argument>"
     ],
     "description": "Grid/ArgumentViewHelper"
@@ -12,7 +12,7 @@
     "prefix": "flux:outlet.form",
     "body": [
       "<flux:outlet.form name=\"$1\" action=\"$2\" controller=\"$3\" extensionName=\"$4\" pluginName=\"$5\" pageUid=\"$6\">",
-      "\t$7",
+      "\t$0",
       "</flux:outlet.form>"
     ],
     "description": "Grid/FormViewHelper"
