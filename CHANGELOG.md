@@ -1,5 +1,10 @@
 # VS Code typo3 Flux Snippets
 
+## Version 0.2.1
+* Update README.md with changes from 0.2.0
+* Fix Tabbing for flux:field.select
+* Fix Tabbing for flux-ce-template
+
 ## Version 0.2.0
 * Fix typo in README.md (Recomendation -> Recommendation)
 * Changed default icon name in CE template (icon.svg -> Standard.svg)
