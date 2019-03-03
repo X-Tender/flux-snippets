@@ -16,7 +16,7 @@
       "\t\t\tdescription=\"$3\"",
       "\t\t>",
       "\t\t\t<flux:form.option name=\"group\" value=\"$4\" />",
-      "\t\t\t<flux:form.option name=\"icon\" value=\"EXT:$5/Resources/Public/Icons/Content/icon.svg\" />",
+      "\t\t\t<flux:form.option name=\"icon\" value=\"EXT:$5/Resources/Public/Icons/Content/Standard.svg\" />",
       "\t\t\t$6",
       "\t\t</flux:form>",
       "\t</f:section>",
