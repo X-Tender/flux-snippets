@@ -6,6 +6,7 @@ Visual Studio Code Snippet extension for TYPO3 Flux.
 **Current status**
 
 * 52 Snippets
+* 1 Template
 
 ## Snippets overview
 
@@ -103,6 +104,39 @@ flux:wizard.list | <code>\<flux:wizard.list label=\"$1\"${2: hideParent=\"1\"}${
 flux:wizard.select | <code>\<flux:wizard.select label=\"$1\"${2: hideParent=\"1\"}${4: extensionName=\"$3\"} mode=\"'${5:substitution}'\" items=\"$6\" /></code>
 flux:wizard.slider | <code>\<flux:wizard.slider label=\"$1\"${2: hideParent=\"1\"}${4: extensionName=\"$3\"} mode=\"'${5:substitution}'\" steps=\"$6\" width=\"$7\" /></code>
 flux:wizard.suggest | <code>\<flux:wizard.suggest label=\"$1\"${2: hideParent=\"1\"}${4: extensionName=\"$3\"} table=\"$5\" pidList=\"'$6'\" pidDepth=\"$7\" minimumCharacters=\"$8\" maxPathTitleLength=\"$9\"${10: searchWholePhrase=\"1\"} searchCondition=\"'$11'\"${13: cssClass=\"'$12'\"}${15: receiverClass=\"'$14'\"}${17: renderFunc=\"'$16'\"} /></code>
+
+## Templates overview
+
+#### Trigger: flux-ce-template
+```html
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+  xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers"
+  xmlns:flux="http://typo3.org/ns/FluidTYPO3/Flux/ViewHelpers"
+  xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
+
+  <f:layout name="Content" />
+
+  <f:section name="Configuration">
+    <flux:form
+      id="$1"
+      label="$2"
+      description="$3"
+    >
+      <flux:form.option name="group" value="$4" />
+      <flux:form.option name="icon" value="EXT:$5/Resources/Public/Icons/Content/icon.svg" />
+      $6
+    </flux:form>
+  </f:section>
+
+  <f:section name="Preview">
+    $7
+  </f:section>
+
+  <f:section name="Main">
+    $8
+  </f:section>
+</div>
+```
 
 ## Source
 
