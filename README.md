@@ -632,7 +632,7 @@ Not all arguments are included in a snippet, only the one which are (in my oppin
 
 All snippets have been taken from [fluidtypo3.org](https://fluidtypo3.org/viewhelpers/flux/master.html) ViewHelper reference<br>
 
-## Recomendations
+## Recommendations
 
 Works perfectly together with other TYPO3 snippet extension<br>
 https://github.com/MrSilaz/typo3snippets<br>
