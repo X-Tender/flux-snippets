@@ -86,7 +86,7 @@
   "flux:field.select": {
     "prefix": "flux:field.select",
     "body": [
-      "<flux:field.select name=\"$1\" label=\"$2\"${4: default=\"$3\"}${5: required=\"1\"}${6: requestUpdate=\"1\"}${12: renderType=\"${7:selectSingle}${8:selectSingleBox}${9:selectCheckBox}${10:selectMultipleSideBySide}${11:selectTree}\"}${14: size=\"$13\"}${16: maxItems=\"$15\"} items=\"{0:{0:'One',1:'0'},1:{0:'Two',1:'1'}}\" />"
+      "<flux:field.select name=\"$1\" label=\"$2\"${4: default=\"$3\"}${5: required=\"1\"}${6: requestUpdate=\"1\"}${12: renderType=\"${7|selectSingle,selectSingleBox,selectCheckBox,selectMultipleSideBySide,selectTree|}\"}${8: size=\"$9\"}${11: maxItems=\"$10\"} items=\"{0:{0:'One',1:'0'},1:{0:'Two',1:'1'}}\" />"
     ],
     "description": "Field/SelectViewHelper"
   },
