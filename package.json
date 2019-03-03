@@ -3,7 +3,7 @@
     "displayName": "flux-snippets",
     "description": "Snippets for TYPO3 Flux ViewHelpers",
     "icon": "images/icon.png",
-    "version": "0.0.4",
+    "version": "0.1.0",
     "publisher": "paulkamma",
     "license": "GNU",
     "engines": {
