@@ -65,6 +65,10 @@
             {
                 "language": "html",
                 "path": "./snippets/wizard.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/templates.json"
             }
         ]
     }

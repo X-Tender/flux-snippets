@@ -1,0 +1,35 @@
+{
+  "flux-content-element-template": {
+    "prefix": "flux-ce-template",
+    "body": [
+      "<div xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"",
+      "\txmlns:f=\"http://typo3.org/ns/TYPO3/Fluid/ViewHelpers\"",
+      "\txmlns:flux=\"http://typo3.org/ns/FluidTYPO3/Flux/ViewHelpers\"",
+      "\txmlns:v=\"http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers\">",
+      "",
+      "\t<f:layout name=\"Content\" />",
+      "",
+      "\t<f:section name=\"Configuration\">",
+      "\t\t<flux:form",
+      "\t\t\tid=\"$1\"",
+      "\t\t\tlabel=\"$2\"",
+      "\t\t\tdescription=\"$3\"",
+      "\t\t>",
+      "\t\t\t<flux:form.option name=\"group\" value=\"$4\" />",
+      "\t\t\t<flux:form.option name=\"icon\" value=\"EXT:$5/Resources/Public/Icons/Content/icon.svg\" />",
+      "\t\t\t$6",
+      "\t\t</flux:form>",
+      "\t</f:section>",
+      "",
+      "\t<f:section name=\"Preview\">",
+      "\t\t$7",
+      "\t</f:section>",
+      "",
+      "\t<f:section name=\"Main\">",
+      "\t\t$8",
+      "\t</f:section>",
+      "</div>"
+    ],
+    "description": "Basic CE template"
+  }
+}
