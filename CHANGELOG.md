@@ -1,5 +1,8 @@
 # VS Code typo3 Flux Snippets
 
+## Version 0.2.2
+* Fix filename variable on template. Use filename without extension
+
 ## Version 0.2.1
 * Update README.md with changes from 0.2.0
 * Fix Tabbing for flux:field.select
