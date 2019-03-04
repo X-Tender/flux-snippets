@@ -604,9 +604,9 @@ Not all arguments are included in a snippet, only the one which are (in my oppin
 
   <f:section name="Configuration">
     <flux:form
-      id="${1:${TM_FILENAME/(^.)/${1:/downcase}/}}"
-      label="${2:$TM_FILENAME}"
-      description="$${3:$TM_FILENAME}"
+      id="${1:${TM_FILENAME_BASE/(^.)/${1:/downcase}/}}"
+      label="${2:$TM_FILENAME_BASE}"
+      description="$${3:$TM_FILENAME_BASE}"
     >
       <flux:form.option name="group" value="${4:Flux}" />
       <flux:form.option name="icon" value="EXT:$5/Resources/Public/Icons/Content/Standard.svg" />
@@ -615,7 +615,7 @@ Not all arguments are included in a snippet, only the one which are (in my oppin
   </f:section>
 
   <f:section name="Preview">
-    <h3>${2:$TM_FILENAME}</h3>
+    <h3>${2:$TM_FILENAME_BASE}</h3>
   </f:section>
 
   <f:section name="Main">
