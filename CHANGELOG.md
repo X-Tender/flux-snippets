@@ -1,5 +1,9 @@
 # VS Code typo3 Flux Snippets
 
+## Version 0.2.3
+* Refactored Snippets overview
+* Added Badges
+
 ## Version 0.2.2
 * Fix filename variable on template. Use filename without extension
 
