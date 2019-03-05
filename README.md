@@ -1,3 +1,4 @@
+[![Version](https://vsmarketplacebadge.apphb.com/version/paulkamma.flux-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=paulkamma.flux-snippets) [![Installs](https://vsmarketplacebadge.apphb.com/installs-short/paulkamma.flux-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=paulkamma.flux-snippets)
 
 # VS Code TYPO3 Flux Snippets
 
