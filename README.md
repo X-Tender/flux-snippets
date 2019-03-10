@@ -306,7 +306,7 @@ Not all arguments are included in a snippet, only the one which are (in my oppin
     <flux:form
       id="${1:${TM_FILENAME_BASE/(^.)/${1:/downcase}/}}"
       label="${2:$TM_FILENAME_BASE}"
-      description="$${3:$TM_FILENAME_BASE}"
+      description="${3:$TM_FILENAME_BASE}"
     >
       <flux:form.option name="group" value="${4:Flux}" />
       <flux:form.option name="icon" value="EXT:$5/Resources/Public/Icons/Content/Standard.svg" />
