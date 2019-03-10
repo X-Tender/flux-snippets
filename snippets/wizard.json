@@ -23,7 +23,7 @@
   "flux:wizard.link": {
     "prefix": "flux:wizard.link",
     "body": [
-      "<flux:wizard.link label=\"$1\"${2: hideParent=\"1\"}${4: extensionName=\"$3\"} activeTab=\"'${5:file}'\" width=\"$6\" height=\"$7\"${9: allowedExtensions=\"$8\"} />"
+      "<flux:wizard.link />"
     ],
     "description": "Wizard/LinkViewHelper"
   },

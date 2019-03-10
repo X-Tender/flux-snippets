@@ -268,7 +268,7 @@ Not all arguments are included in a snippet, only the one which are (in my oppin
 
 #### flux:wizard.link
 ```html
-<flux:wizard.link label="$1"${2: hideParent="1"}${4: extensionName="$3"} activeTab="'${5:file}'" width="$6" height="$7"${9: allowedExtensions="$8"} />
+<flux:wizard.link />
 ```
 
 #### flux:wizard.list
