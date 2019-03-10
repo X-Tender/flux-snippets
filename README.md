@@ -87,7 +87,7 @@ Not all arguments are included in a snippet, only the one which are (in my oppin
 
 #### flux:field.input
 ```html
-<flux:field.input name="$1" label="$2"${4: default="$3"}${5: required="1"}${7: eval="${6:'trim'}"}${9: maxCharacters="$8"}${11: placeholder="$10"} />
+<flux:field.input name="$1" label="$2"${4: default="$3"}${5: required="1"}${7: eval="${6|alpha,alphanum,alphanum_x,double2,email,int,is_in,lower,md5,nospace,num,password,required,saltedPassword,trim,unique,uniquePid,upper,year|}"}${8: maxCharacters="$7"}${10: placeholder="$9"} />
 ```
 
 #### flux:field.multiRelation*
