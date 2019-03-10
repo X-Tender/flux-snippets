@@ -117,7 +117,7 @@ Not all arguments are included in a snippet, only the one which are (in my oppin
 
 #### flux:field.text
 ```html
-<flux:field.text name="$1" label="$2"${4: required="1"}${6: validate="'${5:trim}'"}${7: enableRichText="1"} />
+<flux:field.text name="$1" label="$2"${4: required="1"}${5: enableRichText="1"} />
 ```
 
 #### flux:field.tree*
