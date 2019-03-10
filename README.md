@@ -190,7 +190,7 @@ Not all arguments are included in a snippet, only the one which are (in my oppin
 
 #### flux:form.sheet
 ```html
-<flux:form.sheet name="$1" label="$2"${4: description="$3"}${6: shortDescription="$5"} />
+<flux:form.sheet name="$1" label="$2"${4: description="$3"} shortDescription="$2" >
 ```
 
 #### flux:form.variable

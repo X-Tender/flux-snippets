@@ -85,7 +85,7 @@
   "flux:form.sheet": {
     "prefix": "flux:form.sheet",
     "body": [
-      "<flux:form.sheet name=\"$1\" label=\"$2\"${4: description=\"$3\"}${6: shortDescription=\"$5\"} >",
+      "<flux:form.sheet name=\"$1\" label=\"$2\"${4: description=\"$3\"} shortDescription=\"$2\" >",
       "\t$0",
       "</flux:form.sheet>"
     ],
