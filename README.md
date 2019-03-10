@@ -52,7 +52,7 @@ Not all arguments are included in a snippet, only the one which are (in my oppin
 
 #### flux:field.inline.fal
 ```html
-<flux:field.inline.fal name="$1" label="$2"${3: required="1"}${4: multiple="0"}${6: minItems="$5"}${8: maxItems="$7"}${9: collapseAll="0"}${10: expandSingle="0"} allowedExtensions="${11:jpg,jpeg,png,svg}" />
+<flux:field.inline.fal name="$1" label="$2"${3: required="1"}${4: multiple="1"}${6: minItems="${5:1}"}${8: maxItems="${7:1}"}${9: collapseAll="1"}${10: expandSingle="1"} allowedExtensions="${11:jpg,jpeg,png,svg}" />
 ```
 
 #### flux:field.tree.category*
