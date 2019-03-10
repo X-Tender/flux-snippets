@@ -1,5 +1,15 @@
 # VS Code typo3 Flux Snippets
 
+## Version 0.3.0
+* Fixed typo in template description
+* Changed snippet for <flux:wizard.link />
+  * Remove all argument
+* Optimized <flux:form.sheet>
+  * ShortDescription get automtaicly filled out with the smake value as label
+* Remove validate argument from <flux:field.text>
+* Added all eval options to <flux:field.input>
+* Added all eval options to <flux:field.input>
+
 ## Version 0.2.3
 * Refactored Snippets overview
 * Added Badges
