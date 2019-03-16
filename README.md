@@ -82,7 +82,7 @@ Not all arguments are included in a snippet, only the one which are (in my oppin
 
 #### flux:field.inline*
 ```html
-<flux:field.inline name="$1" label="$2" eextensionName="NULL" table="NULL" />
+<flux:field.inline name="$1" label="$2" extensionName="NULL" table="NULL" />
 ```
 
 #### flux:field.input
