@@ -7,7 +7,7 @@ Visual Studio Code Snippet extension for TYPO3 Flux.
 **Current status**
 
 * 52 Snippets
-* 1 Template
+* 2 Templates
 
 ## Snippets overview
 
@@ -322,6 +322,13 @@ Not all arguments are included in a snippet, only the one which are (in my oppin
     $7
   </f:section>
 </div>
+```
+
+#### flux-link-template
+```html
+<flux:field.input name="$1" label="$2"${3: required="1"}>
+  <flux:wizard.link${4: blindLinkOptions="page,folder,file,mail,url"} />
+</flux:field.input>
 ```
 
 ## Source
