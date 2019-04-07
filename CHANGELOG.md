@@ -1,14 +1,20 @@
 # VS Code typo3 Flux Snippets
 
+## Version 0.4.0
+* Added template for input wrapped link `flux-link-template`
+
+## Version 0.3.1
+* Fixed typo in `<flux:field.inline />`
+
 ## Version 0.3.0
 * Fixed typo in template description
-* Changed snippet for <flux:wizard.link />
+* Changed snippet for `<flux:wizard.link />`
   * Remove all argument
-* Optimized <flux:form.sheet>
+* Optimized `<flux:form.sheet />`
   * ShortDescription get automtaicly filled out with the smake value as label
-* Remove validate argument from <flux:field.text>
-* Added all eval options to <flux:field.input>
-* Added all eval options to <flux:field.input>
+* Remove validate argument from `<flux:field.text />`
+* Added all eval options to `<flux:field.input />`
+* Added all eval options to `<flux:field.input />`
 
 ## Version 0.2.3
 * Refactored Snippets overview
@@ -18,12 +24,12 @@
 * Fix filename variable on template. Use filename without extension
 
 ## Version 0.2.1
-* Update README.md with changes from 0.2.0
+* Update README.<i></i>md with changes from 0.2.0
 * Fix Tabbing for flux:field.select
 * Fix Tabbing for flux-ce-template
 
 ## Version 0.2.0
-* Fix typo in README.md (Recomendation -> Recommendation)
+* Fix typo in README.<i></i>md (Recomendation -> Recommendation)
 * Changed default icon name in CE template (icon.svg -> Standard.svg)
 * Optimized Tabbing
 * Added Choice markup for flux:field.selects renderType
