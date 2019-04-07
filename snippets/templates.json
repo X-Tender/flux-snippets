@@ -31,5 +31,14 @@
       "</div>"
     ],
     "description": "Basic CE template"
+  },
+  "flux-input-wrapped-template": {
+    "prefix": "flux-link-template",
+    "body": [
+      "<flux:field.input name=\"$1\" label=\"$2\"${3: required=\"1\"}>",
+      "  <flux:wizard.link${4: blindLinkOptions=\"page,folder,file,mail,url\"} />",
+      "</flux:field.input>"
+    ],
+    "description": "Input wrapped link wizard"
   }
 }
